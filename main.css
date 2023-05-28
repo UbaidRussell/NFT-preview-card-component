@@ -73,3 +73,30 @@ body{
     float: left;
     margin-right: 5px;
 }
+
+.inner-bottom-container{
+    display: flex;
+}
+.profile-image{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.profile-name{
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 25px;
+}
+a{
+    color: grey;
+    text-decoration: none;
+    cursor:default;
+}

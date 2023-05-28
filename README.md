@@ -17,6 +17,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
+    Our Equilibrium collection promotes balance and calm.
 
 ### The challenge
 
@@ -35,38 +36,30 @@ Users should be able to:
 - Live Site URL: [Click here for live site](https://ubaidrussell.com/NFT-preview-card-component/)
 
 ## My process
+Mapped out the site and then started coding.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
+This code I found interesting. 
 ```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  <hr width="350px" color="grey">
 ```
 
 ### Continued development
-
+We're going to just keep building on top of this.
 
 ### Useful resources
-NOT ADDED YET!
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+- [How to have images in line with text in css](https://stackoverflow.com/questions/20402261/how-to-have-images-in-line-with-text-in-css) - This helped me for aligning images with text. I really liked this pattern and will use it going forward.
+
+- [How to Create a Horizontal Line in HTML](https://www.wikihow.com/Insert-a-Line-in-HTML) - This is an amazing article which helped me finally understand how to insert a line in HTML. I'd recommend it to anyone still learning this concept. What I like about it is that it is very simple, easy to understand and you can implement it straight into HTML code.
 
 ## Author
 
@@ -76,3 +69,4 @@ NOT ADDED YET!
 
 
 ## Acknowledgments
+Shout out to the Frontend Mentor community for being so helpful and supportive.
