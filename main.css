@@ -104,3 +104,13 @@ a{
     text-decoration: none;
     cursor:default;
 }
+
+/* Mobile */
+@media only screen and (min-width:100px) and (max-width: 800px){ 
+    .attribution{
+        display: none;
+    }
+    .container{
+        margin-right: 0px;
+    }
+}
