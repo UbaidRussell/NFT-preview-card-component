@@ -59,6 +59,10 @@ min-height: 100vh;
     font-weight: 300;
     margin-left: 20px;
 }
+.title:hover{
+    color: hsl(178, 100%, 50%);
+    font-weight: 700;
+}
 .paragraph{
     position: relative;
     color: hsl(0, 0%, 59%);
@@ -126,6 +130,9 @@ min-height: 100vh;
     font-size: 18px;
     font-weight: 300;
     margin-top: 25px;
+}
+.profile-name:hover{
+    color:hsl(178, 100%, 50%)
 }
 a{
     color: grey;
