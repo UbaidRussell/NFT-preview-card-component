@@ -47,9 +47,23 @@ Mapped out the site and then started coding.
 
 ### What I learned
 
-This code I found interesting. 
-```html
-  <hr width="350px" color="grey">
+This code I found interesting because it creates the image overlay on hover.
+```css
+.image-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height:350px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: hsla(215, 51%, 70%,0.6);
+    opacity: 0;
+    transition: opacity 0.25s ease;
+}
+.image-overlay:hover{
+    opacity: 1;
+}
 ```
 
 ### Continued development
@@ -60,6 +74,8 @@ We're going to just keep building on top of this.
 - [How to have images in line with text in css](https://stackoverflow.com/questions/20402261/how-to-have-images-in-line-with-text-in-css) - This helped me for aligning images with text. I really liked this pattern and will use it going forward.
 
 - [How to Create a Horizontal Line in HTML](https://www.wikihow.com/Insert-a-Line-in-HTML) - This is an amazing article which helped me finally understand how to insert a line in HTML. I'd recommend it to anyone still learning this concept. What I like about it is that it is very simple, easy to understand and you can implement it straight into HTML code.
+
+- [Image Hover Text Overlay Effect with HTML & CSS - Web Design Tutorial](https://www.youtube.com/watch?v=exb2ab72Xhs) This Youtube video helped us with the image overlay effect. I really liked this pattern and will use it going forward.
 
 ## Author
 
