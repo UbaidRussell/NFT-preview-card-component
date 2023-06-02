@@ -47,7 +47,8 @@ Mapped out the site and then started coding.
 
 ### What I learned
 
-This code I found interesting because it creates the image overlay on hover.
+This code I found interesting because it creates the image overlay on hover and doing that sparked my interest in learning more about CSS animations.
+
 ```css
 .image-overlay{
     position: absolute;
@@ -63,6 +64,15 @@ This code I found interesting because it creates the image overlay on hover.
 }
 .image-overlay:hover{
     opacity: 1;
+}
+.view-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
 }
 ```
 
